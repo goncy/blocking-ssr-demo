@@ -6,8 +6,8 @@ export default function App({
   Component,
   pageProps,
 }: {
-  Component: React.ComponentType;
-  pageProps: any;
+  Component: React.ComponentType<any>;
+  pageProps: Record<string, unknown>;
 }) {
   return (
     <main className="container m-auto grid min-h-screen grid-rows-[auto_1fr_auto] gap-8 px-4 font-sans antialiased">

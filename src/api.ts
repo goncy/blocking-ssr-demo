@@ -1,4 +1,4 @@
-import type { Product } from "./types"
+import type {Product} from "./types";
 
 export async function getProducts(): Promise<Product[]> {
   return [
@@ -38,5 +38,5 @@ export async function getProducts(): Promise<Product[]> {
       price: 39.99,
       image: "/placeholder.svg?height=200&width=200",
     },
-  ]
+  ];
 }

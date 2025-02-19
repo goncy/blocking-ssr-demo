@@ -1,6 +1,13 @@
 import type {Product} from "./types";
 
+import {connection} from "next/server";
+
+const TIMEOUT = Math.floor(Math.random() * 150) + 500;
+
 export async function getProducts(): Promise<Product[]> {
+  await connection();
+  await new Promise((resolve) => setTimeout(resolve, TIMEOUT));
+
   return [
     {
       id: 1,

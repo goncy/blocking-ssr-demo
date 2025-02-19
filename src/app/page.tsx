@@ -1,13 +1,8 @@
-import {connection} from "next/server";
-
 import {getProducts} from "@/api";
 import ProductCard from "@/components/ProductCard";
 
 export default async function HomePage() {
   const products = await getProducts();
-
-  await connection();
-  await new Promise((resolve) => setTimeout(resolve, Math.floor(Math.random() * 150) + 500));
 
   return (
     <main>

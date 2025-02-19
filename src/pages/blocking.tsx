@@ -5,7 +5,7 @@ import {Product} from "@/types";
 export const getServerSideProps = async () => {
   const products = await getProducts();
 
-  await new Promise((resolve) => setTimeout(resolve, Math.floor(Math.random() * 150) + 100));
+  await new Promise((resolve) => setTimeout(resolve, Math.floor(Math.random() * 150) + 500));
 
   return {props: {products}};
 };

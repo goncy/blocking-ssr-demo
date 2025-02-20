@@ -2,7 +2,7 @@ import type {Product} from "./types";
 
 import {connection} from "next/server";
 
-const TIMEOUT = Math.floor(Math.random() * 150) + 500;
+const TIMEOUT = Math.floor(Math.random() * 150) + 1000;
 
 export async function getProducts(): Promise<Product[]> {
   await connection();

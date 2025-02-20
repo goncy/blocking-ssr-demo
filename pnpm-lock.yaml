@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@radix-ui/react-slot':
         specifier: ^1.1.2
-        version: 1.1.2(@types/react@19.0.9)(react@19.0.0)
+        version: 1.1.2(@types/react@19.0.9)(react@19.1.0-canary-fcb4e0f1-20250219)
       '@tailwindcss/postcss':
         specifier: 4.0.6
         version: 4.0.6
@@ -25,19 +25,19 @@ importers:
         version: 2.1.1
       lucide-react:
         specifier: ^0.475.0
-        version: 0.475.0(react@19.0.0)
+        version: 0.475.0(react@19.1.0-canary-fcb4e0f1-20250219)
       next:
         specifier: 15.2.0-canary.62
-        version: 15.2.0-canary.62(@babel/core@7.24.5)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@19.0.0-beta-30d8a17-20250209)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 15.2.0-canary.62(@babel/core@7.24.5)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@19.0.0-beta-30d8a17-20250209)(react-dom@19.1.0-canary-fcb4e0f1-20250219(react@19.1.0-canary-fcb4e0f1-20250219))(react@19.1.0-canary-fcb4e0f1-20250219)
       postcss:
         specifier: ^8.5.2
         version: 8.5.2
       react:
-        specifier: 19.0.0
-        version: 19.0.0
+        specifier: 19.1.0-canary-fcb4e0f1-20250219
+        version: 19.1.0-canary-fcb4e0f1-20250219
       react-dom:
-        specifier: 19.0.0
-        version: 19.0.0(react@19.0.0)
+        specifier: 19.1.0-canary-fcb4e0f1-20250219
+        version: 19.1.0-canary-fcb4e0f1-20250219(react@19.1.0-canary-fcb4e0f1-20250219)
       tailwind-merge:
         specifier: ^3.0.1
         version: 3.0.1
@@ -2377,16 +2377,16 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.0.0:
-    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
+  react-dom@19.1.0-canary-fcb4e0f1-20250219:
+    resolution: {integrity: sha512-hnIhzExkthvWajs3DCR9qRy2XH2290saUsfazQiRtBjfdHZEgS4W6xdOPo50CXhQVyunEIm9dFkJ7ttE2yVyxA==}
     peerDependencies:
-      react: ^19.0.0
+      react: 19.1.0-canary-fcb4e0f1-20250219
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react@19.0.0:
-    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
+  react@19.1.0-canary-fcb4e0f1-20250219:
+    resolution: {integrity: sha512-27ccYQMGwXM6NOT89LQ6LCrhlb2M7/vhDpVJ56fNExEF9JGM6eoe4Nxbm6X3G02Oiqkk5kxdZ70JFrKnTkczlQ==}
     engines: {node: '>=0.10.0'}
 
   read-pkg-up@7.0.1:
@@ -2462,8 +2462,8 @@ packages:
     resolution: {integrity: sha512-x/+Cz4YrimQxQccJf5mKEbIa1NzeCRNI5Ecl/ekmlYaampdNLPalVyIcCZNNH3MvmqBugV5TMYZXv0ljslUlaw==}
     engines: {node: '>= 0.4'}
 
-  scheduler@0.25.0:
-    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
+  scheduler@0.26.0-canary-fcb4e0f1-20250219:
+    resolution: {integrity: sha512-9tlQxvTJ6TUI5ZmK74DNCQoGQT/BdggZx8ZJCVhRQs38vJ5aAyTqAVoACWHoO8Ee/BTY5bnam1xME19NuCxOeg==}
 
   semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
@@ -3326,16 +3326,16 @@ snapshots:
 
   '@pkgr/core@0.1.0': {}
 
-  '@radix-ui/react-compose-refs@1.1.1(@types/react@19.0.9)(react@19.0.0)':
+  '@radix-ui/react-compose-refs@1.1.1(@types/react@19.0.9)(react@19.1.0-canary-fcb4e0f1-20250219)':
     dependencies:
-      react: 19.0.0
+      react: 19.1.0-canary-fcb4e0f1-20250219
     optionalDependencies:
       '@types/react': 19.0.9
 
-  '@radix-ui/react-slot@1.1.2(@types/react@19.0.9)(react@19.0.0)':
+  '@radix-ui/react-slot@1.1.2(@types/react@19.0.9)(react@19.1.0-canary-fcb4e0f1-20250219)':
     dependencies:
-      '@radix-ui/react-compose-refs': 1.1.1(@types/react@19.0.9)(react@19.0.0)
-      react: 19.0.0
+      '@radix-ui/react-compose-refs': 1.1.1(@types/react@19.0.9)(react@19.1.0-canary-fcb4e0f1-20250219)
+      react: 19.1.0-canary-fcb4e0f1-20250219
     optionalDependencies:
       '@types/react': 19.0.9
 
@@ -5200,9 +5200,9 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  lucide-react@0.475.0(react@19.0.0):
+  lucide-react@0.475.0(react@19.1.0-canary-fcb4e0f1-20250219):
     dependencies:
-      react: 19.0.0
+      react: 19.1.0-canary-fcb4e0f1-20250219
 
   math-intrinsics@1.1.0: {}
 
@@ -5235,7 +5235,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.2.0-canary.62(@babel/core@7.24.5)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@19.0.0-beta-30d8a17-20250209)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  next@15.2.0-canary.62(@babel/core@7.24.5)(@opentelemetry/api@1.9.0)(babel-plugin-react-compiler@19.0.0-beta-30d8a17-20250209)(react-dom@19.1.0-canary-fcb4e0f1-20250219(react@19.1.0-canary-fcb4e0f1-20250219))(react@19.1.0-canary-fcb4e0f1-20250219):
     dependencies:
       '@next/env': 15.2.0-canary.62
       '@swc/counter': 0.1.3
@@ -5243,9 +5243,9 @@ snapshots:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001651
       postcss: 8.4.31
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
-      styled-jsx: 5.1.6(@babel/core@7.24.5)(react@19.0.0)
+      react: 19.1.0-canary-fcb4e0f1-20250219
+      react-dom: 19.1.0-canary-fcb4e0f1-20250219(react@19.1.0-canary-fcb4e0f1-20250219)
+      styled-jsx: 5.1.6(@babel/core@7.24.5)(react@19.1.0-canary-fcb4e0f1-20250219)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.2.0-canary.62
       '@next/swc-darwin-x64': 15.2.0-canary.62
@@ -5438,14 +5438,14 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.0.0(react@19.0.0):
+  react-dom@19.1.0-canary-fcb4e0f1-20250219(react@19.1.0-canary-fcb4e0f1-20250219):
     dependencies:
-      react: 19.0.0
-      scheduler: 0.25.0
+      react: 19.1.0-canary-fcb4e0f1-20250219
+      scheduler: 0.26.0-canary-fcb4e0f1-20250219
 
   react-is@16.13.1: {}
 
-  react@19.0.0: {}
+  react@19.1.0-canary-fcb4e0f1-20250219: {}
 
   read-pkg-up@7.0.1:
     dependencies:
@@ -5552,7 +5552,7 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.2.1
 
-  scheduler@0.25.0: {}
+  scheduler@0.26.0-canary-fcb4e0f1-20250219: {}
 
   semver@5.7.2: {}
 
@@ -5776,10 +5776,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(@babel/core@7.24.5)(react@19.0.0):
+  styled-jsx@5.1.6(@babel/core@7.24.5)(react@19.1.0-canary-fcb4e0f1-20250219):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0
+      react: 19.1.0-canary-fcb4e0f1-20250219
     optionalDependencies:
       '@babel/core': 7.24.5
 
